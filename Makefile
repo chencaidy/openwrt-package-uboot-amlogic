@@ -24,7 +24,7 @@ endef
 # GXL boards
 
 define U-Boot/phicomm-n1
-  BUILD_SUBTARGET:=cortexa53
+  BUILD_SUBTARGET:=mesongx
   NAME:=Phicomm N1
   BUILD_DEVICES:=phicomm-n1
 endef
@@ -32,7 +32,7 @@ endef
 # SM1 boards
 
 define U-Boot/amedia-x96
-  BUILD_SUBTARGET:=cortexa55
+  BUILD_SUBTARGET:=mesonsm1
   NAME:=AMedia X96
   BUILD_DEVICES:=x96-air
   FIP_TYPE:=g12a
